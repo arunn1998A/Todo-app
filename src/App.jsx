@@ -1,5 +1,21 @@
 import React from 'react'
-import Task from './product.s/Task'
+
+
+// import About from './About'
+// import Home from './Home'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Jso from './Jso';
+// import ViewUserPage from './components/ViewUserPage';
+// import ListUserPage from './components/ListUserPage';
+// import EditUserPage from './components/EditUserPage';
+// import AddUserPage from './components/AddUserPage';
+
+
+
+
+// import Task from './product.s/Task'
+
+
 // import ValueChange from './ValueChange'
 // import Fd from './fd'
 // import Hooks from './Hooks'
@@ -23,10 +39,18 @@ function App() {
 {/* <Fd/> */}
 {/* <Hooks/> */}
 {/* <Products/> */}
-<Task/>
-    
+{/* <Task/> */}
+    {/* <Home/> */}
+    {/* <About/> */}
+<Jso/>
+{/* <ViewUserPage/>
+<ListUserPage/>
+<EditUserPage/>
+<AddUserPage/> */}
     </div>
   )
 }
+
+
 
 export default App
